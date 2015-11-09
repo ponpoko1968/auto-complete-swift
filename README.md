@@ -19,3 +19,14 @@ This is a AC  source for Swift language.
 # Configuration
 
 Set swift-compiler-args to appropreate '--compilerargs' argument of sourcekitten commandline.
+
+# Thanks
+
+[mikeandmore/auto-complete-clang](https://github.com/mikeandmore/auto-complete-clang)
+
+
+# Copyright
+ 
+Copyright (c) 2015 Shuji OCHI, released under the MIT license  
+
+
