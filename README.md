@@ -7,6 +7,4 @@ This is a AC  source for Swift language.
 ```
 (require 'auto-complete-swift)
 (push 'ac-source-swift-complete ac-sources)
-
-
 ```
