@@ -19,6 +19,7 @@
 
 (eval-when-compile (require 'cl))
 (defvar swift-executable "/usr/local/bin/sourcekitten")
+(defvar swift-compiler-args "-sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk")
 
 (defun swift-process-exec (command)
   (with-output-to-string
@@ -33,8 +34,7 @@
          (col      (1+ (- point (point-at-bol))))
          (row      (count-lines point (point-min)))
          (cmd      (list swift-executable "complete"
-                         "--file" filename "--offset" (format "%s" p) "--compilerargs" "--" "-sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk"
-                         )))
+                         "--file" filename "--offset" (format "%s" p) "--compilerargs" "--" swift-compiler-args) ))
     (message (format "complete at %s:%s:%s" filename row col))
     (swift-process-exec cmd)))
 
