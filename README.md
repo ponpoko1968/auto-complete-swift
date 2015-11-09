@@ -3,8 +3,19 @@
 This is a AC  source for Swift language.
 ![screenshot 1](screenshots/sc-01.png)
 
-#install 
+# prerequisites
+
+- json.el
+- sourcekitten
+  This AC source uses sourcekitten command.
+  install [sourcekitten](https://github.com/jpsim/SourceKitten).
+
+
+# Install 
 ```
 (require 'auto-complete-swift)
 (push 'ac-source-swift-complete ac-sources)
 ```
+# Configuration
+
+Set swift-compiler-args to appropreate '--compilerargs' argument of sourcekitten commandline.
