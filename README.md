@@ -23,7 +23,8 @@ Set swift-compiler-args to appropreate '--compilerargs' argument of sourcekitten
 # Thanks
 
 [mikeandmore/auto-complete-clang](https://github.com/mikeandmore/auto-complete-clang)
-
+[chrisbarrett/swift-mode](https://github.com/chrisbarrett/swift-mode)
+[jpsim/SourceKitten](https://github.com/jpsim/SourceKitten)
 
 # Copyright
  
