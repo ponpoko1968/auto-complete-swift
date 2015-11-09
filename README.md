@@ -3,6 +3,8 @@
 This is a AC  source for Swift language.
 ![screenshot 1](screenshots/sc-01.png)
 
+Japanese description is [here](http://ponpoko1968.hatenablog.com/entry/2015/11/09/183855)
+
 # prerequisites
 
 - json.el
